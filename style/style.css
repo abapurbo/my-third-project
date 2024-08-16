@@ -475,9 +475,11 @@
       font-size: 0.8rem;
       margin:0px;
       font-weight:500;
-      position:relative;
-      top:150px;
-      left:55px;
+      position:absolute;
+      position: absolute;
+      top: 2170px;
+      left: 180px;
+  
 
 
   
@@ -502,9 +504,9 @@
       margin:0px;
       font-size:0.8rem;
       font-weight:500;
-      position:relative;
-      top:20px;
-      left:30px;
+      position:absolute;
+      top:2050px;
+      left:440px;
       
     }
     /* img-3 style related */
@@ -567,12 +569,13 @@
     .img-section5 p{
       color:white;
       margin:0px;
-      width:50%;
+      width:15%;
       font-size:0.8rem;
       font-weight:500;
-      position:relative;
-      left:60px;
-      top:150px;
+      position:absolute;
+      left:560px;
+      top:2400px;
+      
     }
     .img-6{
       background-image:url(../images/exercise6.jpg);
@@ -597,10 +600,11 @@
     }
     /* BMI section related style */
     .bmi-calculator{
-      width:100%;
+      width:50%;
       margin-left:auto;
       margin-right:auto;
       padding-bottom:100px;
+  
      
 
     }
@@ -673,7 +677,7 @@
     }
    
     #input-color{
-    width:41%;
+    width:40%;
     padding:12px;
     margin-bottom:12px;
     margin-right: 5px;
@@ -750,22 +754,45 @@
    .tream{
     width: 99.59%;
     height:200%;
-    border:2px solid red;
+  
     background:  rgba(0, 0, 0,0.92);
     
 
    }
-   .tream-container{
-    border:2px solid blue;
-
+    .tream-container{
+      padding-bottom:58px;
+    }
+   .tream-title-section{
+  
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+     margin-bottom:58px;
+   }
+   .tream-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size:3rem;
+    font-weight: 900;
+    margin:0px;
+    text-align:center;   
+   }
+   .tream-diescription{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align:center;
+    margin:0px;  
    }
    .tream-container-img{
-    border:2px solid rgb(243, 33, 33);
+
     width:75%;
     margin-left:auto;
     margin-right:auto;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+  
 
     
    }
@@ -775,7 +802,7 @@
    display:flex;
    flex-direction: row;
    justify-content:space-evenly;
-   margin-top:15px;
+   padding-top:18px;
  
   
    }
@@ -786,7 +813,7 @@
    flex-direction: row;
    justify-content:space-evenly;
    margin-top:15px;
-   margin-bottom: 15px;
+   padding-bottom: 18px;
   
    }
    .tream-img{
@@ -796,6 +823,81 @@
     border-radius: 18px;
     background: rgba(0, 0, 0, 0.2); 
    }
+    /* footer section */
+    .fitness-container{
+     
+       width:80%;
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:66px;
+    
+      
+     }
+     footer{
+      padding-bottom:5px;
+      background:rgb(24, 24, 24);
+      width:100%;
+      padding-top:20px;
+      
+     
+     }
+     
+    .fitness-section{
+      width:40%;
+      margin-bottom: 78px;;
+    
+    }
+    .fitness-title{
+      color:rgb(230, 83, 60);
+      font-family: Inter;
+      font-size:2.5rem;
+      font-weight: 800;
+      margin:0px;   
+    }
+    .fitness-diescripiton{
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; 
+   
+    }
+    #get-section{
+      display:flex;
+      justify-content:space-between;
+    }
+    .get-start{
+      width:40%;
+    }
+    .get-title{
+      color: rgb(255, 255, 255);
+      font-family: Inter;
+      font-size:1.2rem;
+      font-weight: 700;  
+      margin-top:0px;  
+    
+    }
+    .get-meaning-word{
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 1.2rem;
+      font-weight: 400;    
+    }
+    hr{
+      border: 1.5px solid rgba(255, 255, 255, 0.1);
+      
+      width:80%;
+    }
+    .get-word{
+      color: rgba(255, 255, 255, 0.5);
+      font-family: Inter;
+      font-size: 1.2rem;
+      font-weight: 400;   
+      text-align: center;    
+    }
     
   #main-section{
     background:  rgba(0, 0, 0,0.92);
@@ -804,7 +906,99 @@
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 2000%);
   }
 @media screen and (max-width:576px ){
+  .display{
+    display:none
+  }
+.navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:100%;;
+  
+}
+.brand{
+  margin-left:10px;
+}
+#font-size{
+  color:white;
+  font-size:24px;
+  margin-right:10px;
+ 
+}
+   .body{
+    display:flex;
+    flex-direction:column;
+   }
+   .body-container>.title{
+    font-size:3rem;
+    width: 70%;
+    margin-bottom: 29px;
+    }
+  
+   .span-style{
+    font-size:4rem;
+   }
+   .driescription{
+    width: 56%;
+    font-size: 1.3rem;
+   }
+   #btn{
+   
+    width: 68%;
+   }
+   #btn-primary{
+   
+    width: 159px;
+   }
+   #btn-secondary{
+   
+    width: 156px;
+   }
+   
+   .body-img{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}  
+  
+   .body-img>img{
+    width: 90%;
+    height: 93%;
+} 
 
+#video-award{
+  position: absolute;
+  left: 55%;
+  top: 274px;
+  width: 38%;
+  height: 11%;
+} 
+#point{
+  font-size:2rem;
+} 
+.free-video{
+  font-size:0.8rem;
+  font-weight: 700;
+  margin:0px;
+  padding-left:9px;
+
+}
+.tutorial{
+  position: absolute;
+  left: 37px;
+  top: 847px;
+  width: 156px;
+  height: 84px;
+}
+#tutorial-container{
+ width:20px;
+ height:20px; 
+} 
+ .video-container{
+    margin-top:400px;
+   }
   .habit-title-section{
     width:100%;
     display:flex;
@@ -837,7 +1031,7 @@
   /* runing section */
   .running-section{
     display:flex;
-    border:2px solid blue;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -887,7 +1081,239 @@
     padding:0px;
     
   }
+  .training-title{
+   
+   font-size:2.7rem;
+  }
+  .training-diescription{
+   
+    width:100%;
+    font-size:1rem
+  }
+  .training-img{
+    height:170px;
+    margin-bottom:50px;;
+  }
+  .training-img1{
+    width:100%;
+    height:133px;
+    margin-left:auto;
+    margin-right:auto;
+ 
+  }
+  .display{
+    display:none
+  }
+  .img-1{
+   
+    width:145px;
+    height:130px;
+    background-size: 100% 120%;
+
+
+    
+
+  }
+  .img-section1{
+    height:130px;
+  }
+  
+
+  .img-2{
+    display:flex;
+    width:171px;
+    height:130px;
+    background-position:right bottom;
+
+     
+
+  
+  }
+  .img-1>.img-section1 p{
+   
+    position: absolute;
+   top: 3593px;
+    left: 50px;
+    color: white;  
+
+  }
+ .img-1>.img-section2 p{
+    position: absolute;
+    width:10%;
+    top:240px;
+    left:210px;
+  }
+  .training-img2{
+    height:130px;
+
+  }
+  .img-4{
+   
+    width:130px;
+    height:133px;
+    background-position-x:center;
+    background-position-y:center;
+
+  }
+  .img-5{
+    width:184px;
+    height:135px
+  }
+  .img-section2{
+    height:10px;;
+  }
+  /* tream section */
+  .tream-title-section{
+   
+    width:80%;
+   padding-top: 40px;
+
+  }
+  .tream-title{
+
+    font-size:2rem;
+    width:100%;
+  }
+  .tream-container-img{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:80%;
+  
+  }
+  .tream-img1{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin-top:20px
+   
+  }
+  .tream-img1>img{
+    width:100%;
+    height:100%;
+    margin-bottom:20px;
+  }
+  .tream-img2{
+    display:flex;
+    flex-direction: column;
+ 
+    width:90%;
+    
+  }
+  .tream-img2>img{
+    width:100%;
+    margin-bottom:20px;
+  
+  }
+  .fitness-container{
+  
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+
+  }
+  .fitness-section{
+    width:100%;
+    margin-bottom:20px;
+    
+  }
+  .fitness-diescripiton{
+  
+    width:270px;
+  }
+  #get-section{
+  
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    margin-top:5px;
+
+  }
+  .get-title{
+    font-size:1.4rem;
+  }
+  .get-start{
+   
+    width:100%;
+  }
+  .bmi-calculator{
+    margin-top:-30px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;;
+    width:90%;
+  }
+  .bmi-title{
+   
+    font-size:2rem;
+    font-weight:900; 
+    margin-bottom:1px;
+  }
+.bmi-container{
+  display:flex;
+  flex-direction:column;
+ 
 }
+.bmi-table{
+ 
+  width:90%;
+  padding-left:20px;
+  margin-bottom:40px;;
+
+}
+.bim-calculator-container{
+  border:2px solid rgb(34, 34, 34);
+  margin-left:auto;
+  margin-right:auto;
+}
+.table-header{
+ 
+  margin-top:0px;
+  margin-bottom:20px;
+  font-size:1.5rem;
+  font-weight:500px;
+}
+.bmi-age-calcultor{
+ 
+  width:95%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:30px;
+}
+.section-gender{
+ 
+  width:48%
+}
+.bmi-age-title{
+ 
+  font-size:1.5rem;
+  margin-bottom:5px;;
+}
+.bmi-diescription{
+ 
+  width:90%;
+  margin-bottom:20px;;
+  font-size:1rem
+}
+#activity{
+ 
+  width:98%;
+}
+.bmi-btn{
+
+  margin-top:30px;
+}
+#input-color{
+  width: 40.3%;
+  padding: 12px;
+  margin-bottom: 12px;
+  margin-right: 5px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgba(255, 255, 255,0.1)
+}
+
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -1013,6 +1439,15 @@ background-size:147% 100%;
   left:340px;
   top:3390px;
 }
+.tream-container-img>.tream-img{
+  
+  width: 228px;
+  height: 250px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
 .img-6{
   background-size:120% 110%;
 }
@@ -1047,15 +1482,16 @@ background-size:147% 100%;
   width:100%;
 }
 #input-color{
-   width:45.5%;             
+   width:45%;             
 }
 .section-gender{
-  width:49%;
+  width:48%;
 }
 #activity{
-  width:100%
+  width:98%
 }
 .bmi-diescription{
   font-size:1rem;
 }
+
 }
